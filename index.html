@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            font-family: 'Courier New', Courier, monospace;
+            width: 100%;
+            height: 100%;
+        }
+
+        div {
+            animation: example 2s linear 2s infinite alternate;
+        }
+
+        @keyframes example {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                height: 30px;
+                opacity: 0.1;
+            }
+        }
+
+        #Bir {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Iki {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Uc {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Dort {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Bes {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Alti {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Yedi {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Sekiz {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Dokuz {
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<script>
+    function Loading() {
+        const _ync1 = document.getElementById('Bir');
+        const _ync2 = document.getElementById('Iki');
+        const _ync3 = document.getElementById('Uc');
+        const _ync4 = document.getElementById('Dort');
+        const _ync5 = document.getElementById('Bes');
+        const _ync6 = document.getElementById('Alti');
+        const _ync7 = document.getElementById('Yedi');
+        const _ync8 = document.getElementById('Sekiz');
+        const _ync9 = document.getElementById('Dokuz');
+
+        _ync1.style.backgroundImage = "url('1.jpg')";
+        _ync2.style.backgroundImage = "url('2.jpg')";
+        _ync3.style.backgroundImage = "url('3.jpg')";
+        _ync4.style.backgroundImage = "url('4.jpg')";
+        _ync5.style.backgroundImage = "url('5.jpg')";
+        _ync6.style.backgroundImage = "url('6.jpg')";
+        _ync7.style.backgroundImage = "url('7.jpg')";
+        _ync8.style.backgroundImage = "url('8.jpg')";
+        _ync9.style.backgroundImage = "url('9.jpg')";
+
+
+
+        let number1 = Math.floor(Math.random() * 9);
+        let number2 = Math.floor(Math.random() * 9);
+        let number3 = Math.floor(Math.random() * 9);
+        let number4 = Math.floor(Math.random() * 9);
+        let number5 = Math.floor(Math.random() * 9);
+        let number6 = Math.floor(Math.random() * 9);
+        let number7 = Math.floor(Math.random() * 9);
+        let number8 = Math.floor(Math.random() * 9);
+        let number9 = Math.floor(Math.random() * 9);
+
+        let variableFade1 = number1 + ".jpg";
+        let variableFade2 = number2 + ".jpg";
+        let variableFade3 = number3 + ".jpg";
+        let variableFade4 = number4 + ".jpg";
+        let variableFade5 = number5 + ".jpg";
+        let variableFade6 = number6 + ".jpg";
+        let variableFade7 = number7 + ".jpg";
+        let variableFade8 = number8 + ".jpg";
+        let variableFade9 = number9 + ".jpg";
+
+        setTimeout(() => {
+            _ync1.style.backgroundImage = `url(${variableFade1})`;
+            _ync2.style.backgroundImage = `url(${variableFade2})`;
+            _ync3.style.backgroundImage = `url(${variableFade3})`;
+            _ync4.style.backgroundImage = `url(${variableFade4})`;
+            _ync5.style.backgroundImage = `url(${variableFade5})`;
+            _ync6.style.backgroundImage = `url(${variableFade6})`;
+            _ync7.style.backgroundImage = `url(${variableFade7})`;
+            _ync8.style.backgroundImage = `url(${variableFade8})`;
+            _ync9.style.backgroundImage = `url(${variableFade9})`;
+        }, 2000);
+    }
+</script>
+
+<body onload="Loading()">
+    <div id="Bir"></div>
+    <div id="Iki"></div>
+    <div id="Uc"></div>
+    <div id="Dort"></div>
+    <div id="Bes"></div>
+    <div id="Alti"></div>
+    <div id="Yedi"></div>
+    <div id="Sekiz"></div>
+    <div id="Dokuz"></div>
+</body>
+
+</html>
